@@ -14,4 +14,6 @@ spec:
     spec:
       containers:
       - name: users
-        image: kavindupramod/kub-networking-user
+        image: kavindupramod/kub-networking-user:letest
+      - name: auth
+        image: academind/kub—networking—auth:latest
