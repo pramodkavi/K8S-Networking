@@ -14,6 +14,9 @@ spec:
     spec:
       containers:
       - name: users
-        image: kavindupramod/kub-networking-user:letest
+        image: kavindupramod/kub-networking-user:latest
+        env: 
+          - name: AUTH_ADDRESS
+            value: localhost
       - name: auth
-        image: academind/kub—networking—auth:latest
+        image: kavindupramod/kub-networking-auth:latest
