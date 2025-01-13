@@ -17,6 +17,4 @@ spec:
         image: kavindupramod/kub-networking-user:latest
         env: 
           - name: AUTH_ADDRESS
-            value: localhost
-      - name: auth
-        image: kavindupramod/kub-networking-auth:latest
+            value: "auth-service.default"
